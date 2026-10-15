@@ -161,7 +161,7 @@ void keyPressed() {
     setGenre(keyCode - 49);
   }
 
-  // if the key is [a-z], grab a subtitle
+  // if the key is [a-y], grab a subtitle
   if ((keyCode >= 65) && (keyCode <= 89)) {
     movieIndex = keyCode - 65;
     addText(genreIndex, movieIndex, normalTime);

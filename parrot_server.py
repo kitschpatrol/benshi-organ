@@ -2,7 +2,7 @@ import SocketServer
 
 class MyTCPHandler(SocketServer.BaseRequestHandler):
     """
-    The RequestHandler class for our serv
+    The RequestHandler class for our server.
 
     It is instantiated once per connection to the server, and must
     override the handle() method to implement communication to the

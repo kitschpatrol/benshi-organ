@@ -1,0 +1,57 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "email": "eric@ericmika.com",
+      "name": "Eric Mika",
+      "url": "https://ericmika.com"
+    },
+    {
+      "@type": "Person",
+      "name": "Alejandro Crawford",
+      "url": "https://amjc.info/"
+    }
+  ],
+  "codeRepository": "https://github.com/kitschpatrol/benshi-organ",
+  "dateCreated": "2010-04-21",
+  "description": "An instrument for live performance of movie subtitle data.",
+  "issueTracker": "https://github.com/kitschpatrol/benshi-organ/issues",
+  "keywords": [
+    "processing",
+    "midi",
+    "subtitles",
+    "instrument",
+    "performance",
+    "itp"
+  ],
+  "name": "Benshi Organ",
+  "operatingSystem": "macOS",
+  "programmingLanguage": [
+    "Processing",
+    "Python"
+  ],
+  "readme": "https://github.com/kitschpatrol/benshi-organ/blob/HEAD/readme.md",
+  "runtimePlatform": "Processing",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Processing",
+      "url": "https://processing.org/",
+      "version": "1.1"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "The MidiBus",
+      "url": "https://github.com/sparks/themidibus"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Python",
+      "url": "https://www.python.org/",
+      "version": "2"
+    }
+  ],
+  "url": "https://frontiernerds.com/projects/benshi-organ"
+}
